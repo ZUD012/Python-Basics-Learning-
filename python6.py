@@ -13,11 +13,11 @@ print(sets)
 sets.pop()
 print(sets) # Remove Random element from set . 
 
-sets.union(set2) # Adding two sets .
-print(sets)
+print(sets.union(set2)) # Adding two sets .
 
-sets.intersection(set2) # Taking Common elements from two sets .
-print(sets)
+
+print(sets.intersection(set2)) # Taking Common elements from two sets .
+
 
 sets.clear() # returning a empty set . 
 print(sets)
